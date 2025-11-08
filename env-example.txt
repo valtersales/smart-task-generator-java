@@ -1,0 +1,21 @@
+# OpenAI Configuration (Optional - if not configured, uses local LLM)
+OPENAI_API_KEY=
+
+# Hugging Face Configuration (Optional)
+HUGGINGFACE_API_KEY=
+
+# Force use of Local LLM (true/false)
+USE_LOCAL_LLM=false
+
+# Ollama Configuration (Local LLM)
+# Use localhost when running locally (make dev)
+# Use host.docker.internal when running in Docker (make up)
+OLLAMA_BASE_URL=http://host.docker.internal:11434
+OLLAMA_MODEL=llama2
+
+# Spring Profile (dev, prod)
+SPRING_PROFILES_ACTIVE=dev
+
+# Server Configuration
+SERVER_PORT=8080
+
